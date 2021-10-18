@@ -1,4 +1,5 @@
 # CSV MASK
+Sample project to mask and encrypt csv files data.
 
 ## Installed libraries
 - [csv-parser](https://www.npmjs.com/package/csv-parser)
