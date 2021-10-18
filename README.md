@@ -13,6 +13,14 @@ Generate keypair (public + private):
 npm run generate:keypair
 ```
 
+or manually with openssl:
+
+```
+openssl genrsa -out certificates/private_key.pem 4096
+openssl rsa -pubout -in certificates/private_key.pem -out certificates/public_key.pem
+```
+
+
 Mask and encrypt(using public generated key) input csv files:
 
 ```
